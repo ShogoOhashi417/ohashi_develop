@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      <p id="field"></p>
+      <button type="button" onclick="shogo()">加算</button>
+    </div>
+    <script>
+    let num = 0;
+    const field = document.getElementById('field');
+    field.innerHTML = num;
+
+    function shogo() {
+    // button.addEventListener('click', () => {
+    //   num += 1;
+    // });
+    num += 1;
+
+    field.innerHTML = num;
+}
+    </script>
+  </body>
+
+
+
+</html>
